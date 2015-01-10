@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/main"
+    android:scrollbars="vertical"
+    android:orientation="vertical">
+
+    
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <TextView 
+                	android:text="Hi! Find your details below" 
+                	android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			android:id="@+id/hi"
+        			android:textAppearance="?android:attr/textAppearanceLarge"
+        			android:layout_margin="15px"
+        			android:fontFamily="sans-serif-light"
+        			android:background="#221098F7"
+        			/>
+            <TextView 
+                	android:text="retrieving email address..." 
+                	android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			android:id="@+id/email"
+        			android:textAppearance="?android:attr/textAppearanceLarge" 
+        			android:layout_margin="15px"
+        			android:fontFamily="sans-serif-light"
+        			android:background="#221098F7"/>
+            <TextView 
+                	android:text="retrieving friends list..." 
+                	android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			android:id="@+id/friends"
+        			android:textAppearance="?android:attr/textAppearanceLarge" 
+        			android:layout_margin="15px"
+        			android:fontFamily="sans-serif-light"
+        			android:background="#221098F7"/>
+            <TextView 
+                	android:text="retrieving your gender..." 
+                	android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			android:id="@+id/gender"
+        			android:textAppearance="?android:attr/textAppearanceLarge" 
+        			android:layout_margin="15px"
+        			android:fontFamily="sans-serif-light"
+        			android:background="#221098F7"/>
+            <TextView 
+                	android:text="retrieving your age..." 
+                	android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			android:id="@+id/age"
+        			android:textAppearance="?android:attr/textAppearanceLarge" 
+        			android:layout_margin="15px"
+        			android:fontFamily="sans-serif-light"
+        			android:background="#221098F7"/>
+            <TextView 
+                	android:text="retrieving your public google info..." 
+                	android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			android:id="@+id/profile"
+        			android:textAppearance="?android:attr/textAppearanceLarge" 
+        			android:layout_margin="15px"
+        			android:fontFamily="sans-serif-light"
+        			android:background="#221098F7"/>
+            <TextView 
+                	android:text="retrieving your movement..." 
+                	android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			android:id="@+id/motion"
+        			android:textAppearance="?android:attr/textAppearanceLarge" 
+        			android:layout_margin="15px"
+        			android:fontFamily="sans-serif-light"
+        			android:background="#221098F7"/>
+            <TextView 
+                	android:text="retrieving your transit state..." 
+                	android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			android:id="@+id/transit"
+        			android:textAppearance="?android:attr/textAppearanceLarge" 
+        			android:layout_margin="15px"
+        			android:fontFamily="sans-serif-light"
+        			android:background="#221098F7"/>
+            <TextView 
+                	android:text="retrieving your fav apps..." 
+                	android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			android:id="@+id/apps"
+        			android:textAppearance="?android:attr/textAppearanceLarge" 
+        			android:layout_margin="15px"
+        			android:fontFamily="sans-serif-light"
+        			android:background="#221098F7"/>
+            <TextView 
+                	android:text="retrieving your interests..." 
+                	android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			android:id="@+id/interests"
+        			android:textAppearance="?android:attr/textAppearanceLarge" 
+        			android:layout_margin="15px"
+        			android:fontFamily="sans-serif-light"
+        			android:background="#221098F7"/>
+            <TextView 
+                	android:text="retrieving your fav sites..." 
+                	android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			android:id="@+id/sites"
+        			android:textAppearance="?android:attr/textAppearanceLarge" 
+        			android:layout_margin="15px"
+        			android:fontFamily="sans-serif-light"
+        			android:background="#221098F7"/>
+            
+        </LinearLayout>
+    </ScrollView>
+
+    
+
+</LinearLayout>
